@@ -9,6 +9,8 @@ html[data-theme="light"] {
   --secondary-color: #EBFFFA;
   --font-color: #0594cb;
   --font-color-hover: #96ccff;
+  --font-color-active: #180081;
+  --font-color-visited: #180081;
   --accent-color: #37cdbe; }
 
 html[data-theme="dark"] {
@@ -21,6 +23,8 @@ html[data-theme="dark"] {
   --secondary-color: #EBFFFA;
   --font-color: #0594cb;
   --font-color-hover: #96ccff;
+  --font-color-active: #999999;
+  --font-color-visited: #999999;
   --accent-color: #37cdbe; }
 
 /*
@@ -112,6 +116,12 @@ img {
   user-select: none;
   /* Non-prefixed version, currently
                                     not supported by any browser */ }
+
+.ellipsis--line {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis; }
 
 .h-100 {
   min-height: 100%; }
@@ -304,7 +314,14 @@ a.underline-animate:hover {
   border-radius: 0.4rem; }
 
 .project-box a.project-link {
-  font-size: 1em; }
+  font-size: 1em;
+  color: var(--font-color); }
+  .project-box a.project-link:visited {
+    color: var(--font-color-visited); }
+  .project-box a.project-link:hover {
+    color: var(--font-color-hover); }
+  .project-box a.project-link:active {
+    color: var(--font-color-active); }
 
 .switch-color {
   color: var(--color); }
