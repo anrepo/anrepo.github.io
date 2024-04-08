@@ -115,7 +115,7 @@ img {
   /* Internet Explorer/Edge */
   user-select: none;
   /* Non-prefixed version, currently
-                                    not supported by any browser */ }
+									not supported by any browser */ }
 
 .ellipsis--line {
   display: inline-block;
