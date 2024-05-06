@@ -11,7 +11,10 @@ html[data-theme="light"] {
   --font-color-hover: #96ccff;
   --font-color-active: #180081;
   --font-color-visited: #180081;
-  --accent-color: #37cdbe; }
+  --accent-color: #37cdbe;
+  --code-bgc: #cee6f2;
+  --code-font-color: #262729;
+  --textarea-bgc: #cee6f2; }
 
 html[data-theme="dark"] {
   --bgc-body: #333333;
@@ -25,7 +28,10 @@ html[data-theme="dark"] {
   --font-color-hover: #96ccff;
   --font-color-active: #999999;
   --font-color-visited: #999999;
-  --accent-color: #37cdbe; }
+  --accent-color: #37cdbe;
+  --code-bgc: #262729;
+  --code-font-color: #e77171;
+  --textarea-bgc: #16171d; }
 
 /*
 	Размер шрифта
@@ -75,7 +81,8 @@ h2 {
 
 h3 {
   margin: 1.2rem 0 0.5rem;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  color: inherit; }
 
 p {
   margin-block-start: 0.3em;
@@ -83,10 +90,9 @@ p {
   font-size: 1.2em; }
 
 a {
-  font-size: 1.2em; }
+  font-size: inherit; }
 
 ul {
-  display: flex;
   list-style: none; }
 
 ul li a {
@@ -94,6 +100,31 @@ ul li a {
 
 img {
   vertical-align: middle; }
+
+code {
+  padding: 0.25em 0.45em 0.14em;
+  color: var(--code-font-color);
+  background-color: var(--code-bgc); }
+
+textarea {
+  padding: 1em;
+  color: var(--color);
+  font-size: 1.2em;
+  border: 1px solid var(--bgc-body);
+  border-radius: 0.5em;
+  background-color: var(--textarea-bgc); }
+
+button {
+  padding: 0.75em 1.5em 0.5em;
+  color: var(--color);
+  font-size: 1.2em;
+  border-radius: 0.5em;
+  border: 1px solid var(--bgc-body);
+  background-color: var(--textarea-bgc);
+  cursor: pointer;
+  transition: opacity 0.3s; }
+  button:hover {
+    opacity: 0.65; }
 
 .hidden {
   visibility: hidden;
@@ -184,6 +215,11 @@ header {
 
 .header-nav > *:not(:first-child) {
   margin-left: 0.5rem; }
+
+ul.nav-bar {
+  display: flex; }
+  ul.nav-bar a {
+    font-size: 1.2em; }
 
 a.underline-animate.nav-menu__active {
   outline: 0;
@@ -644,3 +680,18 @@ progress#reading-progress {
       content: "*";
       position: absolute;
       left: -1em; }
+
+html[data-theme="dark"] .uk-accordion-title {
+  color: whitesmoke; }
+
+.page--blog .blog-list a {
+  font-size: 1em;
+  color: var(--font-color);
+  text-decoration: none;
+  transition: color 0.25s linear; }
+  .page--blog .blog-list a:visited {
+    color: var(--font-color-visited); }
+  .page--blog .blog-list a:hover {
+    color: var(--font-color-hover); }
+  .page--blog .blog-list a:active {
+    color: var(--font-color-active); }

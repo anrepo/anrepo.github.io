@@ -9,15 +9,16 @@
     <copyright>Everything is mine</copyright>
     <lastBuildDate>Mon, 27 Jun 2022 23:01:59 +0300</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown</title>
-      <link>/blog/markdown/</link>
-      <pubDate>Mon, 20 Jun 2022 10:41:40 +0300</pubDate>
+      <title>Конвертер в мнемоники</title>
+      <link>/blog/mnemonic-converter/</link>
+      <pubDate>Mon, 06 May 2024 21:36:13 +0300</pubDate>
       
-      <guid>/blog/markdown/</guid>
-      <description>Настоящий документ предназначен для ознакомления пользователя с функциональными возможностями языка разметки Markdown.
-Markdown – это облегченный язык разметки, который является инструментом преобразования кода в HTML. Главной особенностью данного языка является максимально простой синтаксис, который служит для упрощения написания и чтения кода разметки, что, в свою очередь, позволяет легко его корректировать.
-Теперь рассмотрим более подробно функции языка разметки Markdown.
-Markdown не является заменой HTML. Синтаксис Markdown достаточно ограничен, и соответствует лишь небольшому подмножеству элементов HTML.</description>
+      <guid>/blog/mnemonic-converter/</guid>
+      <description> Преобразование спец. символов в символы мнемоники.
+Будет полезно для публикации кода разметки на сайте.
+Так заменяются:
+&amp; на &amp;amp;amp; &#39; на &amp;amp;#39; &#34; на &amp;amp;quot; &lt; на &amp;amp;lt; &gt; на &amp;amp;gt; Для папримера: I&amp;#39;m print tag &amp;quot;&amp;lt;p&amp;gt;&amp;quot; &amp;amp; tag &amp;quot;&amp;lt;a&amp;gt;&amp;quot;, &amp;amp; &amp;quot;&amp;lt;ul&amp;gt;&amp;quot;
+Преобразовать </description>
     </item>
     
     <item>
@@ -27,6 +28,18 @@ Markdown не является заменой HTML. Синтаксис Markdown 
       
       <guid>/contact/</guid>
       <description> </description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>/blog/markdown/</link>
+      <pubDate>Mon, 20 Jun 2022 10:41:40 +0300</pubDate>
+      
+      <guid>/blog/markdown/</guid>
+      <description>Настоящий документ предназначен для ознакомления пользователя с функциональными возможностями языка разметки Markdown.
+Markdown – это облегченный язык разметки, который является инструментом преобразования кода в HTML. Главной особенностью данного языка является максимально простой синтаксис, который служит для упрощения написания и чтения кода разметки, что, в свою очередь, позволяет легко его корректировать.
+Теперь рассмотрим более подробно функции языка разметки Markdown.
+Markdown не является заменой HTML. Синтаксис Markdown достаточно ограничен, и соответствует лишь небольшому подмножеству элементов HTML.</description>
     </item>
     
   </channel>

@@ -2,14 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/blog/markdown/</loc>
-    <lastmod>2022-06-20T10:41:40+03:00</lastmod>
+    <loc>/blog/mnemonic-converter/</loc>
+    <lastmod>2024-05-06T21:36:13+03:00</lastmod>
   </url><url>
     <loc>/contact/</loc>
     <lastmod>2022-06-28T17:17:31+03:00</lastmod>
   </url><url>
     <loc>/</loc>
     <lastmod>2022-06-27T23:01:59+03:00</lastmod>
+  </url><url>
+    <loc>/blog/markdown/</loc>
+    <lastmod>2022-06-20T10:41:40+03:00</lastmod>
   </url><url>
     <loc>/blog/</loc>
     <lastmod>2022-06-03T21:37:28+03:00</lastmod>
