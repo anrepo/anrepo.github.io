@@ -9,6 +9,15 @@
     <copyright>Everything is mine</copyright>
     <lastBuildDate>Fri, 03 Jun 2022 21:37:28 +0300</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Эффект: &#34;Вращающийся текст&#34; (Spinning Text)</title>
+      <link>/blog/sinning-text/</link>
+      <pubDate>Fri, 28 Jun 2024 10:21:10 +0300</pubDate>
+      
+      <guid>/blog/sinning-text/</guid>
+      <description> Скручивание через 3 сек </description>
+    </item>
+    
+    <item>
       <title>Конвертер в мнемоники</title>
       <link>/blog/mnemonic-converter/</link>
       <pubDate>Mon, 06 May 2024 21:36:13 +0300</pubDate>
