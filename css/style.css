@@ -197,6 +197,10 @@ button {
   background-color: var(--bgc-footer);
   color: var(--secondary-color); }
 
+.small {
+  font-size: 0.7rem;
+  font-style: italic; }
+
 header {
   background-color: rgba(32, 32, 32, 0.8); }
 
@@ -351,7 +355,7 @@ a.underline-animate:hover {
   overflow: hidden;
   transition: box-shadow 0.1s linear; }
   .project-box__container {
-    padding: 0.1rem 1rem 0.2rem; }
+    padding: 0.1rem 1rem 0.5rem; }
   .project-box__image {
     display: block;
     width: 100%;
