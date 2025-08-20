@@ -202,7 +202,8 @@ button {
   font-style: italic; }
 
 header {
-  background-color: rgba(32, 32, 32, 0.8); }
+  background-color: rgba(32, 32, 32, 0.8);
+  color: whitesmoke; }
 
 #header-logo {
   color: var(--secondary-color);
@@ -650,6 +651,10 @@ progress#reading-progress {
   width: 100%;
   height: 0.3rem;
   background-color: var(--accent-color); }
+
+.myads {
+  width: 100%;
+  height: 11rem; }
 
 .feedback-form {
   display: flex;

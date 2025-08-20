@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru" data-theme="" data-page="page--spinning-text">
+<html lang="ru" data-theme="" data-page="page--uikit">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=49536&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Эффект: &#34;Вращающийся текст&#34; (Spinning Text)</title>
+	<title>UIkit</title>
 
 	
 	<!-- Meta -->
@@ -57,7 +57,7 @@
 
 
 
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="//localhost:49536/css/style.css">
 </head>
 
 <body>
@@ -81,7 +81,7 @@
 
         
             <li><a class="underline-animate nav-menu-link "
-                href="/"
+                href="//localhost:49536/ru/"
             title="Главная">На главную</a></li>
         
 
@@ -101,7 +101,7 @@
 
         
             <li><a class="underline-animate nav-menu-link nav-menu__active"
-                href="/blog/"
+                href="//localhost:49536/ru/blog/"
             title="Блог">Блог</a></li>
         
 
@@ -109,7 +109,7 @@
 
         
             <li><a class="underline-animate nav-menu-link "
-                href="/contact/"
+                href="//localhost:49536/ru/contact/"
             title="Обратная связь">Обратная связь</a></li>
         
 
@@ -134,113 +134,100 @@
 		<main class="h-100 fg-1 switch-color">
 			<section class="post container">
 
-				<h1>Эффект: &#34;Вращающийся текст&#34; (Spinning Text)</h1>
+				<h1>UIkit</h1>
 	
 				
-<style>
-	h1 {
-		margin-bottom: 60px;
-	}
+<p>Что такое UIkit для frontend разработчика?</p>
+<p>Скачать CSS и JavaScript можно на официальном сайте <a href="https://getuikit.com/docs/introduction" target="_blank" rel="noopener noreferrer">getuikit.com</a>.</p>
+<p>Подключение классическое. Стили в конец тега <head>, скрипты в конец документа. (Другие варианты подключения, например через Npm можно ознакомиться на <a href="https://github.com/uikit/uikit" target="_blank" rel="noopener noreferrer">github</a>)</p>
 
-	.post.container {
-		padding-bottom: 60px;
-	}
+<p>Стили:</p>
 
-	[data-page="page--spinning-text"] .section-container {
-		padding-top: 80px;
-	}
+<pre><code>&lt;link rel="stylesheet" href="css/uikit.min.css" /&gt;
+</code></pre>
 
-	[data-page="page--spinning-text"] .rotatingHeader {
-		width: fit-content;
-		white-space: nowrap;
-	}
+<p>Скрипты:</p>
 
-	[data-page="page--spinning-text"] .rotatingHeader h1 {
-		font-family: 'Saira Extra Condensed', sans-serif;
-		color: #444;
-		font-size: 80px;
-		margin: 0;
-		padding: 0;
-		line-height: 0.5;
-		perspective: 800px;
-	}
+<pre><code>&lt;script src="js/uikit.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/uikit-icons.min.js"&gt;&lt;/script&gt;
+</code></pre>
 
-	[data-page="page--spinning-text"] .rotatingHeader h1:nth-child(2) {
-		color: #efefef;
-	}
+<h3>Пример аккордеона</h3>
+<p>Для определения аккордеона устанавливаем атрибут uk-accordion.</p>
+<p>Так же отмечаем заголовки и контентную часть классами class="uk-accordion-title" и class="uk-accordion-content"</p>
+<p>Бонусом можно указать класс class="uk-open" определяющий открытый "по умолчанию" пункт.</p>
 
-	html[data-theme="light"][data-page="page--spinning-text"] .rotatingHeader h1 {
-		color: var(--bgc-footer);
-	}
+<ul uk-accordion>
+	<li class="uk-open">
+		<a class="uk-accordion-title" href>Item 1</a>
+		<div class="uk-accordion-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+	</li>
+	<li>
+		<a class="uk-accordion-title" href>Item 2</a>
+		<div class="uk-accordion-content">
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+		</div>
+	</li>
+	<li>
+		<a class="uk-accordion-title" href>Item 3</a>
+		<div class="uk-accordion-content">
+			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+		</div>
+	</li>
+</ul>
 
-	html[data-theme="light"][data-page="page--spinning-text"] .rotatingHeader h1:nth-child(2) {
-		color: var(--color);
-	}
-</style>
+<h3>Предотвратить полное закрытие</h3>
+<p>Вместо стрибута uk-accordion ставим uk-accordion="collapsible: false".</p>
 
-<div class="rotatingHeader">
-	<h1>Скручивание через 3 сек</h1>
-</div>
+<ul uk-accordion="collapsible: false">
+	<li class="uk-open">
+		<a class="uk-accordion-title" href>Item 1</a>
+		<div class="uk-accordion-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+	</li>
+	<li>
+		<a class="uk-accordion-title" href>Item 2</a>
+		<div class="uk-accordion-content">
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+		</div>
+	</li>
+	<li>
+		<a class="uk-accordion-title" href>Item 3</a>
+		<div class="uk-accordion-content">
+			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+		</div>
+	</li>
+</ul>
 
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-<script>
-	const tl = gsap.timeline();
+<h3>Множественное открытие</h3>
+<p>Для множественное открытия нужно устанавливать атрибут со свойством uk-accordion="multiple: true"</p>
+<p>Можно комбинировать множественное открытие и запрет закрытие всех так - uk-accordion="multiple: true; collapsible: false"</p>
 
-	function gsapAnimationOne() {
-		let header = document.querySelector(".rotatingHeader");
-		let splitElement = header.querySelector("h1");
-		let cloneElement = splitElement.cloneNode(true);
+<ul uk-accordion="multiple: true; collapsible: false">
+	<li class="uk-open">
+		<a class="uk-accordion-title" href>Item 1</a>
+		<div class="uk-accordion-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+	</li>
+	<li>
+		<a class="uk-accordion-title" href>Item 2</a>
+		<div class="uk-accordion-content">
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+		</div>
+	</li>
+	<li>
+		<a class="uk-accordion-title" href>Item 3</a>
+		<div class="uk-accordion-content">
+			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+		</div>
+	</li>
+</ul>
 
-		header.appendChild(cloneElement);
-		gsap.set(cloneElement, { yPercent: -100 });
-
-		let splitElementSplitted = splitElement.textContent.split('');
-		let cloneSplitElement = splitElement.textContent.split('');
-
-		let splitElementChars = [];
-		let cloneSplitElementChars = [];
-
-		// clean element
-		splitElement.innerHTML = "";
-		cloneElement.innerHTML = "";
-
-		function charGenerate(splitElementSplitted, splitElement, splitElementChars) {
-			splitElementSplitted.forEach(element => {
-				if (element !== ' ') {
-					const letter = document.createElement('div');
-					letter.style = 'display: inline-block';
-					letter.classList.add('char');
-					letter.innerHTML = element;
-					splitElement.appendChild(letter);
-					splitElementChars.push(letter);
-				} else {
-					const space = document.createTextNode(' ');
-					space.innerHTML = element;
-					splitElement.appendChild(space);
-				}
-			});
-		}
-
-		charGenerate(splitElementSplitted, splitElement, splitElementChars);
-		charGenerate(cloneSplitElement, cloneElement, cloneSplitElementChars);
-
-		// global tween settings
-		let duration = 0.7;
-		let stagger = {each: 0.05, ease: "linear", from: "start"};
-
-		gsap.set(cloneSplitElementChars, { rotationX: -90, opacity: 0, transformOrigin: "50% 50% -40" });
-
-		tl.to(splitElementChars, { duration: duration, rotationX: 90, transformOrigin: "50% 50% -40", stagger: stagger });
-		tl.to(splitElementChars, { duration: duration, opacity: 0, stagger: stagger, ease: "linear"}, 0);
-
-		tl.to(cloneSplitElementChars, { duration: 0.05, opacity: 1, stagger: stagger }, 0.001);
-		tl.to(cloneSplitElementChars, { duration: duration, rotationX: 0, stagger: stagger }, 0);
-	}
-
-	setTimeout(() => {
-		gsapAnimationOne();
-	}, 3000);
-</script>
+<h3></h3>
 
 
 			</section>
@@ -261,7 +248,7 @@
     
         
             <li><a class="nav-menu-link " 
-                href="/" 
+                href="//localhost:49536/ru/" 
             title="Главная">На главную</a></li>
         
 
@@ -281,7 +268,7 @@
     
         
             <li><a class="nav-menu-link nav-menu__active" 
-                href="/blog/" 
+                href="//localhost:49536/ru/blog/" 
             title="Блог">Блог</a></li>
         
 
@@ -289,7 +276,7 @@
     
         
             <li><a class="nav-menu-link " 
-                href="/contact/" 
+                href="//localhost:49536/ru/contact/" 
             title="Обратная связь">Обратная связь</a></li>
         
 
