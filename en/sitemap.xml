@@ -2,119 +2,119 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/en/blog/font-include/</loc>
+    <loc>http://anrepo.github.io/en/blog/font-include/</loc>
     <lastmod>2024-07-16T15:49:29+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="/ru/blog/font-include/"
+                href="http://anrepo.github.io/blog/font-include/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="/en/blog/font-include/"
+                href="http://anrepo.github.io/en/blog/font-include/"
                 />
   </url><url>
-    <loc>/en/blog/sinning-text/</loc>
+    <loc>http://anrepo.github.io/en/blog/sinning-text/</loc>
     <lastmod>2024-06-28T10:21:10+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="/ru/blog/sinning-text/"
+                href="http://anrepo.github.io/blog/sinning-text/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="/en/blog/sinning-text/"
+                href="http://anrepo.github.io/en/blog/sinning-text/"
                 />
   </url><url>
-    <loc>/en/blog/mnemonic-converter/</loc>
+    <loc>http://anrepo.github.io/en/blog/mnemonic-converter/</loc>
     <lastmod>2024-05-06T21:36:13+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="/ru/blog/mnemonic-converter/"
+                href="http://anrepo.github.io/blog/mnemonic-converter/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="/en/blog/mnemonic-converter/"
+                href="http://anrepo.github.io/en/blog/mnemonic-converter/"
                 />
   </url><url>
-    <loc>/en/contact/</loc>
+    <loc>http://anrepo.github.io/en/contact/</loc>
     <lastmod>2022-06-28T17:17:31+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="/ru/contact/"
+                href="http://anrepo.github.io/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="/en/contact/"
+                href="http://anrepo.github.io/en/contact/"
                 />
   </url><url>
-    <loc>/en/</loc>
+    <loc>http://anrepo.github.io/en/</loc>
     <lastmod>2022-06-27T23:01:29+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="/ru/"
+                href="http://anrepo.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="/en/"
+                href="http://anrepo.github.io/en/"
                 />
   </url><url>
-    <loc>/en/blog/markdown/</loc>
+    <loc>http://anrepo.github.io/en/blog/markdown/</loc>
     <lastmod>2022-06-20T10:41:40+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="/ru/blog/markdown/"
+                href="http://anrepo.github.io/blog/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="/en/blog/markdown/"
+                href="http://anrepo.github.io/en/blog/markdown/"
                 />
   </url><url>
-    <loc>/en/blog/</loc>
+    <loc>http://anrepo.github.io/en/blog/</loc>
     <lastmod>2022-06-03T21:37:28+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="/ru/blog/"
+                href="http://anrepo.github.io/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="/en/blog/"
+                href="http://anrepo.github.io/en/blog/"
                 />
   </url><url>
-    <loc>/en/categories/</loc>
+    <loc>http://anrepo.github.io/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="/ru/categories/"
+                href="http://anrepo.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="/en/categories/"
+                href="http://anrepo.github.io/en/categories/"
                 />
   </url><url>
-    <loc>/en/tags/</loc>
+    <loc>http://anrepo.github.io/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="/ru/tags/"
+                href="http://anrepo.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="/en/tags/"
+                href="http://anrepo.github.io/en/tags/"
                 />
   </url>
 </urlset>
