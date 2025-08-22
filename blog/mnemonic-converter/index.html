@@ -284,12 +284,14 @@
 	import {toTopBtn} from '/js/components/goto-top-button.js';
 	import {navMenu} from '/js/components/header-nav-menu.js';
 	import {readingProcess} from '/js/components/reading-process.js';
+	import { yearActualize } from '/js/components/actual-year.js';
 
-	themeMode   = themeButton,
-	anchorLinks = anchorSlider,
-	topButton   = toTopBtn,
-	navLinks    = navMenu
-	readingBar  = readingProcess;
+	themeMode   	= themeButton;
+	anchorLinks 	= anchorSlider;
+	topButton   	= toTopBtn;
+	navLinks			= navMenu;
+	readingBar		= readingProcess;
+	setActualYear = yearActualize;
 
 	
 
@@ -307,6 +309,10 @@
 
 	navLinks.init();
 
+	
+
+	setActualYear.init();
+
 </script>
 
 
@@ -315,7 +321,8 @@
 		anchorLinks,
 		topButton,
 		navLinks,
-		readingBar;
+		readingBar,
+		setActualYear;
 
 	let heightHeader;
 
