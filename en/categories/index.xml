@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Profile</title>
-    <link>http://anrepo.github.io/en/categories/</link>
+    <link>https://anrepo.github.io/en/categories/</link>
     <description>Recent content in Categories on Profile</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>All rights reserved</copyright>
-    <atom:link href="http://anrepo.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://anrepo.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
